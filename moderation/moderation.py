@@ -2,7 +2,6 @@ import discord
 import typing
 import datetime
 
- import time
  import os
  import asyncio
 from discord.ext import commands
