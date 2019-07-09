@@ -29,11 +29,9 @@ class Serverinfo(Cog):
             description = f"{mc} amount of people are in the server!\n{onmc} of the {mc} members are online in this server!\n{rc} amount of roles are in the server!\n{cc} amount of channels are in the server!\n{botc} amount of bots are in the server!"
             
         )
-        embed.add_field(name="Q: Who made this?",value="A: By AshyHi#2158")
-        embed.add_field(name="Are there coming more stuff?",value="Yes! Ofcourse! But you just need to wait!")
-        embed.add_field(name="Links?",value="Please wait. And update the bot daily and use the command to when the link is here!")
-        await ctx.send(embed=embed)
-
+        embed.add_field(name="Q: Who made this?",value="A: By SuperFox 《ℕ》
+#0528")
+      
 
 def setup(bot):
     bot.add_cog(Serverinfo(bot))
